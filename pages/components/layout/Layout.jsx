@@ -1,14 +1,12 @@
-import React from 'react';
-import HeadTag from './HeadTag';
-import { Container } from 'semantic-ui-react';
+import React from "react";
+import HeadTag from "./HeadTag";
+import { Container } from "semantic-ui-react";
 
 const Layout = ({ children }) => {
   return (
     <>
       <HeadTag />
-      <Container text>
-        {children}
-      </Container>
+      <Container text>{children}</Container>
     </>
   );
 };
