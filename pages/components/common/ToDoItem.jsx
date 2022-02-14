@@ -14,7 +14,7 @@ const ToDoItem = ({ todoObject }) => {
     "bill",
   ];
 
-  const { userId, title, completed, id } = todoObject;
+  const { userId, title, completed} = todoObject;
 
   return (
     <Message
